@@ -4,6 +4,7 @@ import argparse
 from video_streamer.server import create_app
 from video_streamer.core.config import get_config_from_dict, get_config_from_file, get_auth_config_from_dict
 
+# TODO removeme
 
 def parse_args() -> argparse.Namespace:
     opt_parser = argparse.ArgumentParser(description="mxcube video streamer")
